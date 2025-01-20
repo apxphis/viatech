@@ -7,3 +7,11 @@ body {
     background-color: black;
     text-shadow: 4px 4px 7px rgb(156, 0, 0);
 }
+#who ul {
+    list-style: none;
+    /* Remove default bullets */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
