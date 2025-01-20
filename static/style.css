@@ -2,16 +2,44 @@ body {
     font-family: Quicksand, sans-serif;
     text-align: center;
     margin: 20px;
-
-    color:white;
+    color: white;
     background-color: black;
     text-shadow: 4px 4px 7px rgb(156, 0, 0);
 }
+
 #who ul {
-    list-style: none;
-    /* Remove default bullets */
+    list-style: none; /* Remove default bullets */
     padding: 0;
     display: flex;
     justify-content: center;
     gap: 15px;
+}
+
+#who li {
+    background-color: rgb(63, 156, 243);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(222, 255, 37, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#who li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(222, 255, 37, 0.4);
+}
+
+#why {
+    border: 10px solid rgb(63, 156, 243);
+    border-width: 10px 5px;
+    border-style: groove;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+    background-color: black;
+    color: white;
+    text-shadow: 4px 4px 7px rgb(156, 0, 0);
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(222, 255, 37, 0.2);
 }
