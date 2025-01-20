@@ -1,0 +1,9 @@
+body {
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+    margin: 20px;
+
+    color:white;
+    background-color: black;
+    text-shadow: 4px 4px 7px rgb(156, 0, 0);
+}
